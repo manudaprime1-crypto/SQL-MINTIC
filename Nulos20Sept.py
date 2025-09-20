@@ -46,3 +46,5 @@ print("Reemplazar valores nulos con valor de a moda:")
 df["Salario"]=df["Salario"].fillna(df["Salario"].mode())
 print(df[["Nombre","Salario"]].head())
 print("*"*100)
+
+print()
