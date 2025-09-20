@@ -45,3 +45,5 @@ Empleados=Empleados.drop(columns=["Perfil"])
 print(Empleados)
 Empleados=Empleados.rename(columns={"Id_Empleados":"Id"})
 print(Empleados)
+
+print
