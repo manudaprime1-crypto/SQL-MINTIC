@@ -31,7 +31,6 @@ Ventas = [150, 200, 100]
 
 
 
-
 import matplotlib.pyplot as plt
 
 Meses = ['Enero', 'Febrero', 'Marzo', 'Abril']
@@ -52,6 +51,26 @@ plt.xlabel("Ventas Publicitario", fontsize=12, fontweight='bold', color='darkgre
 plt.ylabel("Meses", fontsize=12, fontweight='bold', color='darkgreen', fontfamily='monospace')
 plt.grid(True)
 plt.show()
+
+#Hisrtograma
+Edades= [18, 25, 30, 35, 40, 45, 50, 55, 60, 70]
+plt.hist(edades, bins=5, color='lightblue', edgecolor='black')
+plt.title("Distribución de Edades", fontsize=16, fontweight='bold', color='darkblue',fontfamily='sans-serif', pad=20)
+plt.xlabel("Rango De Edades", fontsize=12, fontweight='bold', color='darkgreen', fontfamily='monospace')
+plt.ylabel("Frecuencia", fontsize=12, fontweight='bold', color='darkgreen', fontfamily='monospace')
+plt.grid(True)
+plt.show()
+
+#Hisrtograma
+Edades= [18, 25, 30, 35, 40, 45, 50, 55, 60, 70]
+plt.hist(edades, bins=5, color='lightblue', edgecolor='black')
+plt.title("Distribución de Edades", fontsize=16, fontweight='bold', color='darkblue',fontfamily='sans-serif', pad=20)
+plt.xlabel("Rango De Edades", fontsize=12, fontweight='bold', color='darkgreen', fontfamily='monospace')
+plt.ylabel("Frecuencia", fontsize=12, fontweight='bold', color='darkgreen', fontfamily='monospace')
+plt.grid(True)
+plt.show()
+
+
 
 
 
